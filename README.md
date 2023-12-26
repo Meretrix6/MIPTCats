@@ -33,7 +33,7 @@ Team 11(MIPTCats) HW
 :arrow_up:[к оглавлению](https://github.com/Meretrix6/MIPTCats/tree/main/README.md/#Оглавление)
 
 ### Способ решения
-Для выполнения данной задачи был выбран датасет - https://drive.google.com/drive/folders/1s06Vvw0NVJLWO23LKrYqbDtIVFaEsHDq, на его основе была обучена нейросеть в облаке с помощью roboflow. 
+Для выполнения данной задачи был выбран датасет - https://drive.google.com/drive/folders/1s06Vvw0NVJLWO23LKrYqbDtIVFaEsHDq, на его основе была обучена нейросеть в облаке с помощью roboflow и tensorflow. 
 
 :arrow_up:[к оглавлению](https://github.com/Meretrix6/MIPTCats/tree/main/README.md/#Оглавление)
 
@@ -50,5 +50,11 @@ Team 11(MIPTCats) HW
     Изображение содержало в себе молнию. Так как был выбран признак, которого нет в другой модели({'class': 'Shine', 'confidence': 0.9841}), ожидаемо наша модель ('lightning': {'confidence': 0.9249942898750305}) ее превзошла.
 
 Большее количество признаков требует больше данных для анализа, что повышает качество обученной модели.
+
+Validation Accuracy
+tensorflow = 0.97
+roboflow = 0.98
+
+Обученная модель tensorflow весила больше 100 Мб https://disk.yandex.ru/d/a3n_0C3_H5QJhA
 
 :arrow_up:[к оглавлению](https://github.com/Meretrix6/MIPTCats/tree/main/README.md/#Оглавление)
